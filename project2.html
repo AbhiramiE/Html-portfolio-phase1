@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AI in Detection of Pneumonia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+        h1, h2 {
+            color:black;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 20px;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .project-image {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 0.8em; 
+            color: #434040;
+        }
+        .project-image img {
+            max-width: 40%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .ai-role ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .ai-role li {
+            margin-bottom: 8px;
+        }
+        
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="artificial-intelligence-works-with-the-drone-control-system-3d-render-SBV-347724353-preview.mp4" >
+    </video>
+    <h1>AI in Detection of Pneumonia</h1>
+
+    <div class="project-image">
+        <img src="detection2.jpeg" alt="AI in detection of pneumonia">
+        <p>Conceptual representation of AI in Detection of Pneumonia.</p>
+    </div>
+
+    <h2>Brief Overview</h2>
+    <p>This project develops an AI system to automatically detect pneumonia from Chest X-ray images, specifically focusing on the needs and context of healthcare .
+       The primary goal is to enhance diagnostic accuracy, accelerate the detection process, and improve the accessibility of pneumonia diagnosis.</p>
+
+    <h2>AI's Role</h2>
+    <p>The core of this project utilizes Deep Learning, with a primary focus on Convolutional Neural Networks (CNNs)*.
+       Here's a detailed explanation of AI's role:</p>
+    <div class="ai-role">
+        <ul>
+            <li>
+                <strong>Automated Feature Learning:</strong> CNNs learn intricate visual features directly from vast datasets of labeled Chest X-ray images.
+                 This eliminates the need for manual identification and programming of specific medical features. The network's layers progressively identify patterns indicative of pneumonia.
+            </li>
+            <li>
+                <strong>Pattern Recognition:</strong> Once trained, the AI model acts as a highly sophisticated pattern recognition system.
+                 It can analyze new, unseen CXR images and identify subtle visual patterns that strongly suggest the presence of pneumonia.
+            </li>
+            <li>
+                <strong>Image Classification:</strong> The final stage involves the AI classifying the input CXR image by assigning a probability score. 
+                This score represents the likelihood of pneumonia being present, providing a quantitative measure to support diagnosis.
+            </li>
+            <li>
+                <strong>Enhancing Diagnostic Capabilities:</strong>
+                <ul>
+                    <li>
+                        <strong>Transfer Learning:</strong> The AI leverages pre-existing knowledge from models trained on massive general image datasets and adapts it to the specific task of pneumonia detection in CXRs.
+                         This accelerates learning and improves performance, especially with potentially limited Indian medical image data.
+                    </li>
+                    <li>
+                        <strong>Data Augmentation:</strong> AI techniques are employed to artificially increase the diversity of the training data.
+                         This makes the model more robust and less prone to biases or overfitting to specific image characteristics prevalent in the training set.
+                    </li>
+                </ul>
+    </div>
+    <div style="text-align: center;">
+        <a href="projects.html">Back to Projects</a>
+    </div>
+</body>
+</html>
